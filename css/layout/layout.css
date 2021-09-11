@@ -1,0 +1,26 @@
+@import url(header.css);
+@import url(footer.css);
+
+body{
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main{
+  flex:1; /*para separar el header del footer*/
+  padding: 3em 0;
+}
+.container-f{
+  display: flex;
+  /*flex-direction:row ;
+  flex-wrap: wrap;*/
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 2em;
+}
+.st-c{
+  text-align: center;
+  margin-bottom: 1.2em;
+}

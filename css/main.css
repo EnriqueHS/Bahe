@@ -1,0 +1,15 @@
+/* STYLES */
+@import url(reset.css);
+@import url(fonts.css);
+@import url(variables.css);
+
+/* LAYOUT */
+@import url(layout/layout.css);
+
+/* COMPONENTS */
+@import url(components/buttons.css);
+@import url(components/cards.css);
+@import url(components/form.css);
+
+/* CSS */
+@import url(pages/team.css);
