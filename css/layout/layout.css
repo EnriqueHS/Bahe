@@ -10,7 +10,7 @@ body{
 }
 main{
   flex:1; /*para separar el header del footer*/
-  padding: 3em 0;
+  
 }
 .container-f{
   display: flex;
@@ -23,4 +23,25 @@ main{
 .st-c{
   text-align: center;
   margin-bottom: 1.2em;
+}
+
+#wave-cont{
+  width: 100%;
+  background: #8A2387;  
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(233, 63, 86, 0.644), hsla(302, 60%, 34%, 0.664)), url(/assets/images/portada2.jpg);   
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(233, 63, 86, 0.644), hsla(302, 60%, 34%, 0.664)), url(/assets/images/portada2.jpg); 
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height:100vh;
+  
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.wave{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 250px; overflow: hidden;
 }

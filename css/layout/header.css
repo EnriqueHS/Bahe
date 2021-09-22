@@ -6,7 +6,6 @@ header {
 	align-items: center;
 	/* BOX MODEL */
 	padding: 1em;
-	background: var(--clr-bg-light);
 	color: var(--clr-txt-light);
 }
 
@@ -22,6 +21,10 @@ header .menu-link:hover{
 header .menu-link--active {
 	color: var(--clr-accent-400);
 }
+
+
+
+
 
 
 
