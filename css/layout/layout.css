@@ -27,16 +27,16 @@ main{
 
 #wave-cont{
   width: 100%;
-  /* background: #8A2387;  
+  background: #8A2387;  
  
-  background: -webkit-linear-gradient(to right, rgba(233, 63, 86, 0.644), hsla(302, 60%, 34%, 0.664)), url(/assets/images/portada2.jpg);   
+  background: -webkit-linear-gradient(to right, rgba(233, 63, 86, 0.644), hsla(302, 60%, 34%, 0.664)), url(../../assets/images/portada2.jpg);   
   
-  background: linear-gradient(to right, rgba(233, 63, 86, 0.644), hsla(302, 60%, 34%, 0.664)), url(/assets/images/portada2.jpg); 
-  */
+  background: linear-gradient(to right, rgba(233, 63, 86, 0.644), hsla(302, 60%, 34%, 0.664)), url(../../assets/images/portada2.jpg); 
+  
   height:100vh; 
-  filter: brightness(65%);
-  background: url(/assets/images/portada2.jpg);
-  
+ /*  filter:saturate(20%);
+  background: url(/assets/images/portada2.jpg) no-repeat center /cover; */
+  color:#FFF;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
